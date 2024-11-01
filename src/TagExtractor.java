@@ -19,6 +19,7 @@ public class TagExtractor extends JFrame {
         this.setTitle("Tag Extractor");
         this.setSize(600, 400);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setLocationRelativeTo(null);
         this.setLayout(new BorderLayout());
 
         //Components inside of the GUI (TextArea w/ ScrollPane, 2 Buttons)
